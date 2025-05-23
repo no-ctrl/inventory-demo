@@ -54,8 +54,8 @@ A full-stack inventory management application built with Spring Boot and Angular
 - Java 17 or higher
 - Node.js 18 or higher
 - npm 9 or higher
-- PostgreSQL 12 or higher
-- Maven 3.8 or higher
+- PostgreSQL
+- Gradle
 
 ## Setup Instructions
 
@@ -81,7 +81,7 @@ spring.datasource.password=your_password
 
 3. Build and run the application:
 ```bash
-./mvnw spring-boot:run
+./gradlew bootRun
 ```
 
 The backend will start on `http://localhost:8080`
@@ -198,27 +198,3 @@ The application includes comprehensive error handling:
 - Reactive forms with validation
 - HTTP interceptors for authentication and error handling
 - Modular architecture with lazy loading
-
-## Building for Production
-
-### Backend
-```bash
-./mvnw clean package
-```
-
-### Frontend
-```bash
-ng build --configuration production
-```
-
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Commit your changes
-4. Push to the branch
-5. Create a Pull Request
-
-## License
-
-This project is licensed under the MIT License. 
