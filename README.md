@@ -1,5 +1,9 @@
 # Inventory Management System
 
+
+https://github.com/user-attachments/assets/444103f7-308f-4d1b-a08e-9af445d8e49c
+
+
 A full-stack inventory management application built with Spring Boot and Angular, featuring user authentication, role-based access control, and product management with image support.
 
 ## Features
